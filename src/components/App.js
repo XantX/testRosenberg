@@ -1,7 +1,8 @@
 import "./App.css";
 import Question from "./questions/question";
 import questions from "./questions/questionTask";
-import Instructions from "./instructions/intrunctions"
+import Instructions from "./instructions/intrunctions";
+import Result from "./results/result";
 import { useState } from "react";
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   console.log(questions);
   return (
     <div className="App">
-      <Instructions/>
+      <Instructions />
       {questions.map((singleQuestion) => (
         <Question
           score={score}
@@ -20,7 +21,7 @@ function App() {
           values={singleQuestion.scorePoints}
         />
       ))}
-      <h1>Tu score final es: {score}</h1>
+      <Result resultado={score} />
     </div>
   );
 }
