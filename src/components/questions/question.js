@@ -12,8 +12,8 @@ const Question = ({
   const [state, updateEstate] = useState(false);
   return (
     <div className="question">
-      <h1>{questionNumber}</h1>
-      <h3>{question}</h3>
+      <h2>{questionNumber}</h2>
+      <h4>{question}</h4>
       <Button
         score={score}
         scoreUpdate={scoreUpdate}
