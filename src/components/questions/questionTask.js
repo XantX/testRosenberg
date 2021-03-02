@@ -32,7 +32,7 @@ const questions = [
   {
     questionNumber: "Pregunta 6",
     question:
-    "Siento que no tengo mucho de loe que estar orgulloso/a",
+    "Siento que no tengo mucho de lo que estar orgulloso/a",
     scorePoints: [1, 2, 3, 4],
   },
   {

@@ -6,7 +6,9 @@ const Button = (props) => {
       className="ButtonScore"
       onClick={() => {
         props.scoreUpdate(props.score + props.value);
+        props.updateEstate(!props.disabled);
       }}
+      disabled={props.disabled}
     >
       {props.letter}
     </button>
