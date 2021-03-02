@@ -1,0 +1,17 @@
+.instructions {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 30px;
+  display: block;
+  text-align: center;
+  border: red 5px solid;
+}
+ul {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+}
+p {
+  text-align: justify;
+}
+
